@@ -1,0 +1,110 @@
+body {
+    background-color: black ;
+}
+h1 {
+    text-align:center ; 
+    color: black;
+    font-size: 75px;
+    background-color: antiquewhite;
+    
+}
+h3 {
+    color: antiquewhite;
+    font-size: 30px;
+}
+img {
+    width: 25%;
+    border-radius: 25px;
+    background-color: rgb(171, 110, 29);
+    margin: auto;
+
+    
+}
+marquee {
+    color: black;
+    font-size: 50px;
+    background-color:aliceblue;
+    
+}
+details {
+    color: aliceblue;
+    font-size: 30px;
+    
+}
+form {
+    color: aliceblue;
+    text-align:center;
+
+    font-size: 30px;
+}
+.list {
+    color:antiquewhite;
+    font-size: 25px;
+    display:block;
+    font-style: oblique;
+    
+}
+.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 25%;
+}
+.column {
+    float:left;
+    width: 30%;
+    padding: 15px;
+
+    
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    align-items: center;
+
+
+}
+
+.points {
+    text-align: center;
+}
+#movies {
+    
+    font-size: 25px;
+    
+}
+option{
+    font-size: 25px;
+}
+p {
+    font-size: 30px;
+    float: inline-end;
+}
+b {
+    font-size: 25px;
+    
+}
+header {
+    background-image:url('p1.webp');
+    padding: 50px 25px ;
+    background-size:cover;
+    background-position: center;
+}
+.action {
+    font-size: 25px;
+    color: white;
+    background-color: #0056b3;
+    text-align: center;
+}
+#comments {
+    padding: 18px;
+    width: 20%;
+}
+#com {
+    color:aliceblue;
+}
+#cat {
+    color: rgb(227, 148, 44);
+}
